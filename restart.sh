@@ -15,7 +15,6 @@ function teedoc_build() {
 function restart() {
     kill_teedoc
     rm -rf out
-    teedoc_build 
     teedoc_build
     teedoc serve &
 }
